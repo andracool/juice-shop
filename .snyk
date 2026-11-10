@@ -1,0 +1,9 @@
+# Snyk Security Policy
+# Project: OWASP Juice Shop
+# Task: Accept Risk
+
+ignore:
+  <SNYK-ID-KERENTANAN>:
+    - '*':
+        reason: 'Dev-only dependency, tidak masuk production bundle'
+        expires: 2026-12-31
